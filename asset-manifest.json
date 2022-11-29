@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ChecklistApp/static/css/main.7e1e2aed.css",
-    "main.js": "/ChecklistApp/static/js/main.41dfc515.js",
+    "main.css": "/ChecklistApp/static/css/main.56df225e.css",
+    "main.js": "/ChecklistApp/static/js/main.ccbccf81.js",
     "static/js/787.4bebb2ed.chunk.js": "/ChecklistApp/static/js/787.4bebb2ed.chunk.js",
     "static/media/undo_image.png": "/ChecklistApp/static/media/undo_image.8d5df1098680667d46ee.png",
     "static/media/delete_image.png": "/ChecklistApp/static/media/delete_image.aa7f24b41eed202a14f6.png",
     "index.html": "/ChecklistApp/index.html",
-    "main.7e1e2aed.css.map": "/ChecklistApp/static/css/main.7e1e2aed.css.map",
-    "main.41dfc515.js.map": "/ChecklistApp/static/js/main.41dfc515.js.map",
+    "main.56df225e.css.map": "/ChecklistApp/static/css/main.56df225e.css.map",
+    "main.ccbccf81.js.map": "/ChecklistApp/static/js/main.ccbccf81.js.map",
     "787.4bebb2ed.chunk.js.map": "/ChecklistApp/static/js/787.4bebb2ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e1e2aed.css",
-    "static/js/main.41dfc515.js"
+    "static/css/main.56df225e.css",
+    "static/js/main.ccbccf81.js"
   ]
 }
