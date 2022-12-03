@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Cook-Hub/static/css/main.66226279.css",
-    "main.js": "/Cook-Hub/static/js/main.42d6269f.js",
+    "main.css": "/Cook-Hub/static/css/main.1a68610a.css",
+    "main.js": "/Cook-Hub/static/js/main.9805c993.js",
     "static/js/787.dadfebab.chunk.js": "/Cook-Hub/static/js/787.dadfebab.chunk.js",
     "static/media/OpenSans-SemiBold.ttf": "/Cook-Hub/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
     "static/media/undo_image.png": "/Cook-Hub/static/media/undo_image.8d5df1098680667d46ee.png",
     "static/media/delete_image.png": "/Cook-Hub/static/media/delete_image.aa7f24b41eed202a14f6.png",
     "index.html": "/Cook-Hub/index.html",
-    "main.66226279.css.map": "/Cook-Hub/static/css/main.66226279.css.map",
-    "main.42d6269f.js.map": "/Cook-Hub/static/js/main.42d6269f.js.map",
+    "main.1a68610a.css.map": "/Cook-Hub/static/css/main.1a68610a.css.map",
+    "main.9805c993.js.map": "/Cook-Hub/static/js/main.9805c993.js.map",
     "787.dadfebab.chunk.js.map": "/Cook-Hub/static/js/787.dadfebab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66226279.css",
-    "static/js/main.42d6269f.js"
+    "static/css/main.1a68610a.css",
+    "static/js/main.9805c993.js"
   ]
 }
