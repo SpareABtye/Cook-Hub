@@ -11,7 +11,7 @@ const RecipesHomepage = () => {
 
     return (
         <>
-            <h1>Recipes Pages</h1>
+            <h1>Recipes Pagess</h1>
         </>
     )
 };
