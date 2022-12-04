@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/ChecklistApp/static/css/main.b62d665e.css",
-    "main.js": "/ChecklistApp/static/js/main.2453a232.js",
-    "static/js/787.4bebb2ed.chunk.js": "/ChecklistApp/static/js/787.4bebb2ed.chunk.js",
-    "index.html": "/ChecklistApp/index.html",
-    "main.b62d665e.css.map": "/ChecklistApp/static/css/main.b62d665e.css.map",
-    "main.2453a232.js.map": "/ChecklistApp/static/js/main.2453a232.js.map",
-    "787.4bebb2ed.chunk.js.map": "/ChecklistApp/static/js/787.4bebb2ed.chunk.js.map"
+    "main.css": "/Cook-Hub/static/css/main.1a68610a.css",
+    "main.js": "/Cook-Hub/static/js/main.743ee390.js",
+    "static/js/787.dadfebab.chunk.js": "/Cook-Hub/static/js/787.dadfebab.chunk.js",
+    "static/media/OpenSans-SemiBold.ttf": "/Cook-Hub/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "static/media/undo_image.png": "/Cook-Hub/static/media/undo_image.8d5df1098680667d46ee.png",
+    "static/media/delete_image.png": "/Cook-Hub/static/media/delete_image.aa7f24b41eed202a14f6.png",
+    "index.html": "/Cook-Hub/index.html",
+    "main.1a68610a.css.map": "/Cook-Hub/static/css/main.1a68610a.css.map",
+    "main.743ee390.js.map": "/Cook-Hub/static/js/main.743ee390.js.map",
+    "787.dadfebab.chunk.js.map": "/Cook-Hub/static/js/787.dadfebab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b62d665e.css",
-    "static/js/main.2453a232.js"
+    "static/css/main.1a68610a.css",
+    "static/js/main.743ee390.js"
   ]
 }
