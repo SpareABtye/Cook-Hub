@@ -1,32 +1,22 @@
-import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-import Itemlist from './components/item-list/item-list'
-import './App.css';
+import Navigation from './routes/navigation/navigation.component';
+import ShoppingList from './routes/shoppping-list/shopping-list.component';
+import RecipesHomepage from './routes/recipes/recipes-homepage.component';
+import Home from './routes/home/home.component';
+
+import './App.scss';
 
 const App = () => {
-
-  // Userinput is fed into the input box. 
-  // SavedList is the actual list stored in an array.
-  const [userInput, setUserInput] = useState('');
-  const [savedList, setSavedList] = useState([]);
-
-  // This handle takes the input (>0), adds it to the list array and clears the input.
-  const handleClick = (event) => {
-    if(userInput.length > 0){
-      setSavedList(savedList.concat(userInput));
-      setUserInput('');
-      console.log(savedList);
-  }
-  }
   
   return (
-    <div>
-      <div>
-        <input value={userInput} onChange={e => setUserInput(e.target.value)} />
-        <button onClick={handleClick}>Add</button>
-      </div>
-      <Itemlist listItems={savedList}/>
-    </div>
+    <Routes>
+      <Route path='/Cook-Hub' element={ <Navigation /> }>
+        <Route index element={ <Home /> } />
+        <Route path='/Cook-Hub/shopping_list' element={ <ShoppingList /> }/>
+        <Route path='/Cook-Hub/recipes/homepage' element={ <RecipesHomepage /> } />
+      </Route>
+    </Routes>
   );
 }
 

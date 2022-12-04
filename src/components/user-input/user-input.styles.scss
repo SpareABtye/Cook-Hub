@@ -1,0 +1,11 @@
+.user_input_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    input {
+        width: 6rem;
+
+        border-radius: 5px;
+    }
+}

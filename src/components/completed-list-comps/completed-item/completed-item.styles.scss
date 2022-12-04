@@ -1,0 +1,25 @@
+.strike {
+    text-decoration: line-through;
+    border: none;
+}
+
+.completed_list_item_container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.completed_list_item {
+    display: flex;
+    max-width: 5rem;
+
+    -moz-user-select:none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE*/
+    user-select: none; /* Standard syntax */
+
+    cursor: pointer;
+
+    padding: 3px;
+
+}

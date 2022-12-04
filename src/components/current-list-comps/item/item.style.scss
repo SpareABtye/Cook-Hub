@@ -1,0 +1,21 @@
+.list_item_container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.list_item {
+    display: flex;
+    max-width: 5rem;
+
+    -moz-user-select:none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE*/
+    user-select: none; /* Standard syntax */
+
+    cursor: pointer;
+
+    padding: 1px;
+
+    border-bottom: solid black 1px;
+}

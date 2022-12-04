@@ -1,0 +1,14 @@
+.app_container {
+  height: 100vh;
+
+  background-color: #00D5DF;
+
+  .title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    box-shadow: 1px 1px 10px 10px #009198;
+  }
+}
+
