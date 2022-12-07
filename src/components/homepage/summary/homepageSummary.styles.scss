@@ -1,6 +1,30 @@
-.summary {
-    height: 75vh;
-    width: 60%;
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(./fonts/Roboto-Medium.ttf);
+}
 
-    border: solid black 1px;
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    .summary-title {
+        text-align: center;
+    }
+
+    p {
+        padding: 0 2rem 2rem 2rem;
+
+        font-family: 'Roboto-Light';
+        letter-spacing: 1px;
+        white-space: pre-wrap;
+    }
 }

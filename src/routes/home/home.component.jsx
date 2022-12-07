@@ -7,13 +7,12 @@ import './home.styles.scss'
 const Home = () => {
     return (
         <div className='homepage'>
-            <header>
-                <HomepageTitle />
-            </header>
-            <section>
-                <HomepageSummary />
+            <section className='summary-container'>
+                <HomepageSummary /> 
+            </section>    
+            <div className='link-container'>
                 <HomepageNewLinks />
-            </section>
+            </div>
         </div>
     )
 };
