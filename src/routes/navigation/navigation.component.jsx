@@ -12,7 +12,7 @@ const Navigation = () => {
             <Link className='nav-link' to='/Cook-Hub/shopping_list'>
                 My List
             </Link>
-            <Link className='nav-link' to='/Cook-Hub/recipes/homepage'>
+            <Link className='nav-link' to='/Cook-Hub/recipes'>
                 Recipes
             </Link>
         </div>

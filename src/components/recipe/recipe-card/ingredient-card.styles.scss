@@ -1,0 +1,10 @@
+.ingredient-card {
+    width: 50%;
+    border: solid black 1px;
+
+    .product-title, 
+    .ingredients,
+    .directions {
+        margin: 1rem;
+    }
+}
