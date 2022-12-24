@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "path": "/Cook-Hub/recipes/pizza-dough",
+        "routePath": "/*/pizza-dough",
+        "linkPath": "pizza-dough",
         "product": "Pizza Dough",
-        "component": "<RecipeCard product={productListing.product} ingredients={productListing.ingredients} directions={productListing.directions} />",
         "ingredients": {
             "flour": "3c",
             "salt": "1tsp",
@@ -14,8 +14,8 @@
     },
     {
         "id": 2,
-        "path": "/Cook-Hub/recipes/bicuits",
-        "component": "<RecipeCard product={productListing.product} ingredients={productListing.ingredients} directions={productListing.directions} />",
+        "routePath": "/*/biscuits",
+        "linkPath": "biscuits",
         "product": "Biscuits",
         "ingredients": {
             "flour": "3c",
@@ -27,9 +27,9 @@
     },
     {
         "id": 3,
-        "path": "/Cook-Hub/recipes/marinara",
-        "component": "<RecipeCard product={productListing.product} ingredients={productListing.ingredients} directions={productListing.directions} />",
-        "product": "Marinara",
+        "routePath": "/*/marinara",
+        "linkPath": "marinara",
+        "product": "marinara",
         "ingredients": {
             "tomato paste": "4oz",
             "salt": "1tsp",

@@ -14,15 +14,17 @@ const RecipesApp = () => {
     const [recipeData] = useState(RECIPE_DATA)
 
     return (
+        <div className='recipe-container'>
         <Routes>
             <Route path='/*' element={ <RecipeNav /> }>
                 <Route index element={<RecipesHomepage />}/>
-                {recipeData.map(({recipe}) => {
+                {recipeData.map(({id, routePath, product, ingredients, directions}) => {
                     return (
-                        <Route key='{recipe.route}' path='{recipe.path}' element={<RecipeCard product='{recipe.product}' ingredients='{recipe.ingredients}' directions='{recipe.directions}' />} />
+                        <Route key={id} path={routePath} element={<RecipeCard product={product} ingredients={ingredients} directions={directions} />} />
                 )})}
             </Route>
         </Routes>
+        </div>
     )
 };
 

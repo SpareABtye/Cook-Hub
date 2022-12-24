@@ -1,0 +1,14 @@
+.recipe-container {
+    display: flex;
+    flex-direction: row-reverse;
+    top: 0;
+    height: 100%;
+    width: 90%;
+    z-index: -1;
+    margin-left: 5rem;
+ 
+}
+
+.recipe-container > :nth-child(2) {
+    width: 100%;
+}

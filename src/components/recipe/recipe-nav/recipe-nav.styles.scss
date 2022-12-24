@@ -1,0 +1,39 @@
+.recipe-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 72vh;
+    padding-top: 5.95rem;
+    width: 10rem;
+    margin-right: 4rem;
+
+    position: sticky;
+    top: 4.6rem;
+
+    background-color: #c4ecff79;
+
+    ul {
+        list-style: none;
+        margin: 0 3rem 0 0;
+        text-align: center;
+    }
+
+    a {
+        font-family: 'OpenSans-Semi';
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 1rem;
+        margin: 1rem;
+        padding: 4px;
+
+        cursor: pointer; 
+    }
+}
