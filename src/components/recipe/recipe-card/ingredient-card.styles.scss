@@ -1,10 +1,24 @@
 .ingredient-card {
     width: 50%;
-    border: solid black 1px;
+    padding: 1rem;
 
-    .product-title, 
+    h2, 
     .ingredients,
     .directions {
         margin: 1rem;
+    }
+
+    h2 {
+        text-align: center;
+        border-bottom: solid black 1px;
+        padding-bottom: 5px;
+    }
+
+    .card {
+        border: solid black 1px;
+    }
+
+    .direction-line {
+        padding: 5px;
     }
 }

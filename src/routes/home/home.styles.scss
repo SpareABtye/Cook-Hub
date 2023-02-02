@@ -1,22 +1,15 @@
 .homepage {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 
     top: 0;
     height: 100%;
     position: relative;
     z-index: -1;
-    margin-left: 5rem;
 
     .summary-container {
         display: flex;
         justify-content: center;
-    }
-
-    .link-container {
-        display: flex;
-        justify-content: flex-end;
-
-        position: sticky;
     }
 }

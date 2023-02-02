@@ -3,6 +3,18 @@
     src: url(./fonts/OpenSans-SemiBold.ttf);
 }
 
+a {
+  font-family: 'OpenSans-Semi';
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
 .navigation { 
     display: flex;
     justify-content: center;
@@ -18,29 +30,83 @@
     box-shadow: 1px 2px 4px 3px #0000004d;
     background-color: white;
 
-    a {
-        font-family: 'OpenSans-Semi';
-        text-decoration: none;
-        color: black;
+    .nav-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      height: 1rem;
+      margin: 1rem;
+      padding: 4px;
+    
+      border-left: 1px solid #00000026;
+      border-right: 1px solid #00000026;
+    
+      cursor: pointer; 
     }
 
-    a:hover {
-        border: 1px solid black;
-        border-radius: 5px;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .hamburger-react {
+      z-index: 1;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .mobile-menu {
+      position: fixed;
+      top: 0;
+      padding-top: 3.5rem;
+           
+      width: 35%;
+      height: 100%;
+
+      background-color: #00b3ffd3;
+
+        display: flex;
+        flex-direction: column;
+
+        .nav-link {
+          display: flex;
+          align-items: center;
+        
+          height: 1rem;
+          width: fit-content;
+          margin: .55rem;
+          padding: 1px;
+        
+          cursor: pointer; 
+    }
+  }
+
+    .mobile-nav {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav-control {
+      background-color: red;
     }
 
     .nav-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        height: 1rem;
-        margin: 1rem;
-        padding: 4px;
-
-        border-left: 1px solid #00000026;
-        border-right: 1px solid #00000026;
-
-        cursor: pointer; 
+        grid-auto-flow: row;
+        list-style-type: none;
+        row-gap: 40px;
+        column-gap: 0;
+        justify-items: center;
     }
-}
+  }

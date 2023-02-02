@@ -1,20 +1,37 @@
-import { Outlet, Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import { Spin as Menu } from 'hamburger-react'
+
+import Links from './links/links.component';
 
 import './navigation.styles.scss'
 
 const Navigation = () => {
+
+    const [ open, setOpen ] = useState(false);
+
+    const navControl = () => {
+        setOpen(!open);
+    }
+
+    const navVisibility = () => {
+        if(open){
+            return (
+                <div className='mobile-menu'>
+                    <Links />
+                </div>
+            )
+        }
+    }
+
     return (
         <>
         <div className='navigation'>
-            <Link className='nav-link' to='/Cook-Hub'>
-                Home
-            </Link>
-            <Link className='nav-link' to='/Cook-Hub/shopping_list'>
-                My List
-            </Link>
-            <Link className='nav-link' to='/Cook-Hub/recipes'>
-                Recipes
-            </Link>
+            <Links />
+        </div>
+        <div className='mobile-nav'>
+            <Menu onToggle={navControl} size={30} type="checkbox" />
+            {navVisibility()}
         </div>
         <Outlet /> 
         </>

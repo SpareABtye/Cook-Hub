@@ -12,20 +12,25 @@ const RecipeNav = () => {
     return (
         <>
             <div className='recipe-navigation'>
-                <Link className='nav-link' to='/Cook-Hub/recipes'>
-                    Recipe Hompage
-                </Link>
-                <ul>
-                {recipeData.map((recipe) => {
-                    return (
-                        <li className='nav-link'>
-                        <Link key={recipe.id} to={recipe.linkPath}>
-                            {recipe.product}
-                        </Link>
-                        </li>
-                    )
-                })}
-                </ul>
+                <div>
+                    <Link className='nav-recipe-link' to='/Cook-Hub/recipes'>
+                        Recipe Hompage
+                    </Link>
+                </div>
+                <nav>
+                    <h4>Recipes</h4>
+                    <ul>
+                    {recipeData.map((recipe) => {
+                        return (
+                            <li className='nav-recipe-link'>
+                            <Link key={recipe.id} to={recipe.linkPath}>
+                                {recipe.product}
+                            </Link>
+                            </li>
+                        )
+                    })}
+                    </ul>
+                </nav>
             </div>
             <Outlet />
         </>

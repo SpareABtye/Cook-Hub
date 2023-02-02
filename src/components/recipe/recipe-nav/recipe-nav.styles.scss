@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     height: 72vh;
     padding-top: 5.95rem;
@@ -9,6 +10,7 @@
     margin-right: 4rem;
 
     position: sticky;
+    // z-index: -1;
     top: 4.6rem;
 
     background-color: #c4ecff79;
@@ -17,15 +19,23 @@
         list-style: none;
         margin: 0 3rem 0 0;
         text-align: center;
+
+        li {
+           font-size: .8rem;
+           padding: .3rem;
+           width: min-content;
+           white-space: nowrap;
+        }
     }
 
     a {
         font-family: 'OpenSans-Semi';
         text-decoration: none;
         color: black;
+        position: relative;
     }
 
-    .nav-link {
+    .nav-recipe-link {
         display: flex;
         justify-content: center;
         align-items: center;
