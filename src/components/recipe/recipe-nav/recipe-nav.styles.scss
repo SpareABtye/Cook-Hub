@@ -11,7 +11,7 @@
 
     position: sticky;
     // z-index: -1;
-    top: 4.6rem;
+    top: 0;
 
     background-color: #c4ecff79;
 
@@ -45,5 +45,55 @@
         padding: 4px;
 
         cursor: pointer; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .recipe-navigation2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    
+        width: 10rem;
+        margin-right: 4rem;
+    
+        position: sticky;
+        // z-index: -1;
+        top: 0;
+    
+        background-color: #c4ecff79;
+    
+        ul {
+            list-style: none;
+            margin: 0 3rem 0 0;
+            text-align: center;
+    
+            li {
+               font-size: .8rem;
+               padding: .3rem;
+               width: min-content;
+               white-space: nowrap;
+            }
+        }
+    
+        a {
+            font-family: 'OpenSans-Semi';
+            text-decoration: none;
+            color: black;
+            position: relative;
+        }
+    
+        .nav-recipe-link2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            height: 1rem;
+            margin: 1rem;
+            padding: 4px;
+    
+            cursor: pointer; 
+        }
     }
 }

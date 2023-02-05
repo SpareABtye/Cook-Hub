@@ -12,3 +12,11 @@
 .recipe-container > :nth-child(2) {
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    .recipe-container {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}

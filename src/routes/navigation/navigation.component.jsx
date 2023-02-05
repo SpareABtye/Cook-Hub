@@ -30,7 +30,7 @@ const Navigation = () => {
             <Links />
         </div>
         <div className='mobile-nav'>
-            <Menu onToggle={navControl} size={30} type="checkbox" />
+            <Menu onToggle={navControl} size={30} />
             {navVisibility()}
         </div>
         <Outlet /> 

@@ -5,10 +5,14 @@ import './shopping-list.styles.scss'
 
 const ShoppingList = () => {
     return (
-        <>
-            <Itemlist />
-            <CompletedList />
-        </>
+        <div className="shopping-list">
+            <div>
+                <Itemlist />
+            </div>
+            <div>
+                <CompletedList />
+            </div>
+        </div>
     )
 };
 
