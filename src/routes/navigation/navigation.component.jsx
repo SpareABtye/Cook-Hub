@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Spin as Menu } from 'hamburger-react'
+import { Squeeze as Menu } from 'hamburger-react'
 
 import Links from './links/links.component';
 

@@ -11,19 +11,22 @@ const Itemlist = () => {
   const {listItems} = useContext(ListContext)
 
   return (
-    <div className='item_list_container'>
-    
-      <ul className='item_list'>
-        <UserInput />
-        <h3>Shopping List</h3>
-          {listItems.map((listItem) => {
-            return (
-              <li className='test' key={listItem.id}>
-                <Item item={listItem.listItem} id={listItem.id} />
-                </li>
-            )
+    <div className='item-list-frag'>
+      <div className='item-list-container'>
+        <div className='item-list-title'>
+          <UserInput />
+          <h3>Shopping List</h3>
+        </div>
+        <ul className='item-list'>
+            {listItems.map((listItem) => {
+              return (
+                <li className='test' key={listItem.id}>
+                  <Item item={listItem.listItem} id={listItem.id} />
+                  </li>
+              )
           })}
         </ul>
+      </div>
     </div>
   )
 }

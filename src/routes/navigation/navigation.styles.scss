@@ -27,6 +27,7 @@ a:hover {
   margin-bottom: 4px;
   box-shadow: 1px 2px 4px 3px #0000004d;
   background-color: white;
+  z-index: 5;
 
   .nav-link {
     display: flex;
@@ -61,6 +62,7 @@ a:hover {
   align-items: center;
   position: sticky;
   top: 0;
+  width: 10%;
 
   .hamburger-react {
     z-index: 3;

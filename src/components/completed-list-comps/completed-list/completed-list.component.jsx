@@ -9,7 +9,7 @@ const CompletedList = () => {
 
     const { completedList } = useContext(CompletedListContext)
  
-    if (completedList.length > 0) {return (
+    return (
         <div className='completed_list_container'>
           <ul className='completed_item_list'>
             {completedList.map((compListItem) => {
@@ -21,7 +21,7 @@ const CompletedList = () => {
             })}
           </ul>
         </div>
-    )}
-}
+)}
+
 
 export default CompletedList;
